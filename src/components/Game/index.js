@@ -3,6 +3,12 @@ import Board from "../Board";
 
 class Game extends React.Component {
 
+  constructor(props) {
+    super(props);
+
+
+  }
+
   render() {
     return (
       <div className="game">
