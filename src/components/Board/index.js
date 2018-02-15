@@ -6,8 +6,8 @@ class Board extends React.Component {
   /**
    *
    */
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
 
     this.state = {
       squares: Array(9).fill(null),
